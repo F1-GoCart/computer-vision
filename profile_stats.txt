@@ -1,0 +1,28 @@
+         51641 function calls (48521 primitive calls) in 30.300 seconds
+
+   Ordered by: cumulative time
+   List reduced from 437 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       13   10.182    0.783  267.869   20.605 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\serialization.py:1910(persistent_load)
+        2   19.579    9.790   19.579    9.790 {method 'set' of 'cv2.VideoCapture' objects}
+        1    0.423    0.423    0.423    0.423 {method 'read' of 'cv2.VideoCapture' objects}
+        3    0.000    0.000    0.088    0.029 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\ultralytics\nn\tasks.py:247(_apply)
+    844/3    0.005    0.000    0.088    0.029 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\nn\modules\module.py:900(_apply)
+        2    0.000    0.000    0.080    0.040 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\nn\modules\module.py:1216(to)
+        1    0.000    0.000    0.077    0.077 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\ultralytics\engine\model.py:863(_apply)
+      716    0.000    0.000    0.073    0.000 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\nn\modules\module.py:1320(convert)
+      716    0.063    0.000    0.073    0.000 {method 'to' of 'torch._C.TensorBase' objects}
+      359    0.009    0.000    0.011    0.000 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\serialization.py:1878(load_tensor)
+      4/1    0.000    0.000    0.010    0.010 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\cuda\__init__.py:289(_lazy_init)
+        1    0.008    0.008    0.008    0.008 {built-in method torch._C._cuda_init}
+        1    0.000    0.000    0.008    0.008 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\nn\modules\module.py:1137(float)
+      358    0.000    0.000    0.004    0.000 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\nn\modules\module.py:1146(<lambda>)
+      301    0.004    0.000    0.004    0.000 {method 'float' of 'torch._C.TensorBase' objects}
+      359    0.001    0.000    0.002    0.000 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\_guards.py:957(detect_fake_mode)
+      359    0.000    0.000    0.002    0.000 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\_utils.py:204(_rebuild_tensor_v2)
+        1    0.000    0.000    0.002    0.002 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\nn\modules\module.py:2846(eval)
+    281/1    0.000    0.000    0.002    0.002 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\nn\modules\module.py:2824(train)
+     2246    0.001    0.000    0.002    0.000 C:\Users\ADMIN\anaconda3\envs\cart\Lib\site-packages\torch\nn\modules\module.py:2719(children)
+
+
